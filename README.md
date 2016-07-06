@@ -1,4 +1,4 @@
-# helloGithub
+# hello-github
 
 This is my self-study repository by using [GitHubGuides](https://guides.github.com/).
 

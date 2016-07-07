@@ -43,4 +43,24 @@ Because Contributions(*2) are not counted if the email addresses are not same.
 
 For more details, see [Set Up Git](https://help.github.com/articles/set-up-git/), and [Why are my contributions not showing up on my profile?](https://help.github.com/articles/why-are-my-contributions-not-showing-up-on-my-profile/)
 
+## Appendix
+
+### Resize image in README.md of GitHub
+
+You can put image using Markdown,
+
+` ![image](http://xxx/image.png)`
+
+However, this is too big.
+
+![DownloadDockerDmg](https://github.com/Soichiro75/hello-runc/blob/master/images/2016-07-07_DownloadDockerDmg.png)
+
+You can resize image by usin direct HTML tag,
+`<img src="https://xxx/image.png" width="320px">`
+
+<img src="https://github.com/Soichiro75/hello-runc/blob/master/images/2016-07-07_DownloadDockerDmg.png" width="320px">
+
+
+
+
 

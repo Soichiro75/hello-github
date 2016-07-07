@@ -4,13 +4,12 @@ This is my self-study repository by using [GitHubGuides](https://guides.github.c
 
 ## Install (ver. Mac)
 
-### install by usin homebrew
+### install by using homebrew
 
 If your Mac is not installed Homebrew, you can install as follows:
 
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
 ```
 For more details, see [Homebrew Page](http://brew.sh/index.html)
 
@@ -19,13 +18,14 @@ You can install Git easily by using Homebrew as follows:
 
 ```
 brew update
-
 brew install git
-
 git -version
 ```
 
+### Set up Git
+
 Then you should setting up Git as follows:
+
 ```
 git config -l
 git config --global user.name "YOUR NAME"

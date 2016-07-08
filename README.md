@@ -22,9 +22,9 @@ brew install git
 git -version
 ```
 
-### Set up Git
+### Setting up Git
 
-Then you should setting up Git as follows:
+You should setting up Git as follows:
 
 ```
 git config -l
@@ -33,13 +33,13 @@ git config --global user.email "YOUR EMAIL ADDRESS"
 git config -l
 ```
 
-The "YOUR EMAIL ADDRESS" should be same your GitHub email address(*1).
+The *"YOUR EMAIL ADDRESS"* should be same your GitHub email address(\*1).
 
-(*1: You can see the GitHub email address on GitHub. Your GitHut page > Your Profile Picture/Settings > Personal settings/Emails/Email)
+(\*1: You can see the GitHub email address on GitHub. *Your GitHut page > Your Profile Picture/Settings > Personal settings/Emails/Email*)
 
-Because Contributions(*2) are not counted if the email addresses are not same. 
+Because Contributions(\*2) are not counted if the email addresses are not same.
 
-(*2: The Contributions are on your Github profile page. It is greph that show your action record.)
+(\*2: The Contributions are on your Github profile page. It is graph that show your action record.)
 
 For more details, see [Set Up Git](https://help.github.com/articles/set-up-git/), and [Why are my contributions not showing up on my profile?](https://help.github.com/articles/why-are-my-contributions-not-showing-up-on-my-profile/)
 
@@ -58,6 +58,12 @@ You can resize image by using direct HTML tag, `<img src="https://xxx/image.png"
 <img src="https://github.com/Soichiro75/hello-github/blob/master/images/2016-07-07_DownloadDockerDmg.png" width="320px">
 
 
+### How to Preview README.md like GitHub on your PC before push GitHub
 
+- Install [Atom](https://atom.io/).
 
+- Atom > Preferences > Packages > Search *"markdown-preview"* > Settings > Check Setting/*"Use GitHub.com style"*
 
+- It can be activated from the editor using the **"Ctrl-Shift-m"** key-binding and is currently enabled for .markdown, .md, .mdown, .mkd, .mkdown, .ron, and .txt files.
+
+<img src="https://github.com/Soichiro75/hello-github/blob/master/images/2016-07-08_Preview_md_onAtom.png" width="320px">

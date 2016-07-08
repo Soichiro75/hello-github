@@ -4,7 +4,7 @@ This is my self-study repository by using [GitHubGuides](https://guides.github.c
 
 ## Install (ver. Mac)
 
-### install by using homebrew
+### Install by Using Homebrew
 
 If your Mac is not installed Homebrew, you can install as follows:
 
@@ -22,7 +22,7 @@ brew install git
 git -version
 ```
 
-### Setting up Git
+### Setting Up Git
 
 You should setting up Git as follows:
 
@@ -43,9 +43,20 @@ Because Contributions(\*2) are not counted if the email addresses are not same.
 
 For more details, see [Set Up Git](https://help.github.com/articles/set-up-git/), and [Why are my contributions not showing up on my profile?](https://help.github.com/articles/why-are-my-contributions-not-showing-up-on-my-profile/)
 
+
+## How To Use
+
+### Helpful Links
+
+* [GitHub Guide](https://guides.github.com/): You can learn what is GitHub and how to use GitHub on the GitHubWebSite.
+* [try.github](https://try.github.io/): You can try *gitcli* on the website in the form of hans-on.
+* [git-scm](https://git-scm.com/doc): You can learn how to detail use by using *gitcli*
+
+
+
 ## Appendix
 
-### Resize image in README.md of GitHub
+### Resize Image in README.md of GitHub
 
 You can put image using Markdown, ` ![image](http://xxx/image.png)`
 

@@ -66,16 +66,16 @@ You can preview some .md-files while revising it on your PC before push GitHub.
 
 - It can be activated from the editor using the **"Ctrl-Shift-m"** key-binding and is currently enabled for .markdown, .md, .mdown, .mkd, .mkdown, .ron, and .txt files.
 
-<img src="https://github.com/Soichiro75/hello-github/blob/master/images/2016-07-08_Preview_md_onAtom.png" width="320px">
+<img src="https://github.com/Soichiro75/hello-github/blob/master/images/2016-07-08_Preview_md_onAtom.png" width="320px" title="Preview_md_onAtom">
 
 ### Resize Image in README.md of GitHub
 
-You can put image using Markdown, ` ![image](http://xxx/image.png)`
+You can put image using Markdown, ` ![image_title](http://xxx/image.png)`
 
-However, this is too big.
+However, sometimes this is too big.
 
-![DownloadDockerDmg](https://github.com/Soichiro75/hello-github/blob/master/images/2016-07-07_DownloadDockerDmg.png)
+![TryGitHub](https://github.com/Soichiro75/hello-github/blob/master/images/2016-07-08_TryGitHub.png)
 
 You can resize image by using direct HTML tag, `<img src="https://xxx/image.png" width="320px">`
 
-<img src="https://github.com/Soichiro75/hello-github/blob/master/images/2016-07-07_DownloadDockerDmg.png" width="320px">
+<img src="https://github.com/Soichiro75/hello-github/blob/master/images/2016-07-08_TryGitHub.png" width="320px" title="TryGitHub">

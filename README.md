@@ -66,7 +66,7 @@ You can preview some .md-files while revising it on your PC before push GitHub.
 
 - It can be activated from the editor using the **"Ctrl-Shift-m"** key-binding and is currently enabled for .markdown, .md, .mdown, .mkd, .mkdown, .ron, and .txt files.
 
-<img src="https://github.com/Soichiro75/hello-github/blob/master/images/2016-07-08_Preview_md_onAtom.png" width="320px" class="shadow" title="Preview_md_onAtom">
+<img src="https://github.com/Soichiro75/hello-github/blob/master/images/2016-07-08_Preview_md_onAtom.png" width="320px" title="Preview_md_onAtom">
 
 ### Resize Image in README.md of GitHub
 

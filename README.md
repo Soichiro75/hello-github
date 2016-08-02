@@ -1,8 +1,5 @@
 # hello-github
 
-aaa
-
-
 This document is still incomplete.
 
 This is my self-study repository by using [GitHubGuides](https://guides.github.com/).
@@ -29,6 +26,7 @@ git -version
 
 ### Setting Up Git
 
+#### Set Up `user.name` and `user.email`(Gloabal)
 You should setting up Git as follows:
 
 ```
@@ -47,6 +45,37 @@ Because Contributions(\*2) are not counted if the email addresses are not same.
 (\*2: The Contributions are on your Github profile page. It is graph that show your action record.)
 
 For more details, see [Set Up Git](https://help.github.com/articles/set-up-git/), and [Why are my contributions not showing up on my profile?](https://help.github.com/articles/why-are-my-contributions-not-showing-up-on-my-profile/)
+
+
+#### Set Up `user.name` and `user.email`(local)
+
+The above setting up is `global`.
+
+You can individual set up `user.name` and `user.email` to each repository by using `--local` option.
+
+```
+git config -l
+git config --local user.name "ANOTHER NAME"
+git config --local user.email "ANOTHER EMAIL ADDRESS"
+git config -l
+    credential.helper=xxxx
+    user.name="YOUR NAME"
+    user.email="YOUR EMAIL ADDRESS"
+    core.repositoryformatversion=xxxx
+    core.filemode=xxxx
+    core.bare=xxxx
+    core.logallrefupdates=xxxx
+    core.ignorecase=xxxx
+    core.precomposeunicode=xxxx
+    remote.origin.url=https://gitlab.com/xxxx/xxxx
+    remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+    branch.master.remote=origin
+    branch.master.merge=refs/heads/master
+    user.name="ANOTHER NAME"
+    user.email="ANOTHER EMAIL ADDRESS"
+```
+
+`local` takes priority when both `global` and `local` are setupped.
 
 
 ## How To Use
